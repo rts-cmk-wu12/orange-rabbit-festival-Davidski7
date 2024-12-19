@@ -1,0 +1,156 @@
+.event-signup {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("src/assets/overlay.png") no-repeat center center;
+    background-size: cover;
+  
+    .signup-container {
+      display: flex;
+      width: 90%;
+      max-width: 1200px;
+      height: 80vh;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      overflow: hidden;
+  
+      
+      .text-section {
+        flex: 1;
+        background: url("src/assets/danny-howe-bn-D2bCvpik-unsplash 1.png") no-repeat center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        color: white;
+        width: 777px;
+  
+        .festival-title {
+          font-size: 2.8rem;
+          margin-bottom: 10px;
+        }
+  
+        .festival-subtitle {
+          font-size: 1.2rem;
+          line-height: 1.5;
+        }
+      }
+  
+    
+      .form-section {
+        flex: 1;
+        background: white;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #333;
+  
+        h2 {
+          text-align: center;
+          margin-bottom: 20px;
+          font-size: 1.8rem;
+          color: #ff6600;
+        }
+  
+        form {
+          display: flex;
+          flex-direction: column;
+  
+          input {
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+  
+            &:focus {
+              outline: none;
+              border-color: #ff6600;
+              box-shadow: 0 0 5px rgba(255, 102, 0, 0.5);
+            }
+          }
+  
+          .next-button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 255px;
+            height: 65px;
+  
+            &:hover {
+              background-color: #e05500;
+            }
+          }
+        }
+      }
+  
+      
+      .data-box {
+        flex: 1;
+        background: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #333;
+        position: relative;
+        margin-top: 20px; 
+        margin-left: 20px; 
+  
+        height: auto; 
+        max-height: 100%; 
+  
+        .participant {
+          margin-bottom: 20px;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          background-color: #f9f9f9;
+          position: relative;
+  
+          .delete-icon {
+            font-size: 1.2rem;
+            color: #e74c3c;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+          }
+  
+          p {
+            margin: 5px 0;
+            font-size: 1rem;
+            strong {
+              color: #ff6600;
+            }
+          }
+        }
+      }
+    }
+    .go-to-complete-page {
+        width: 100%;
+        padding: 10px;
+        background-color: #ff6600;
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 366px;
+        height: 80px;
+        margin-top: auto;
+      }
+      
+     
+  }
+  
+  
