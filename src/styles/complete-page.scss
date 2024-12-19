@@ -1,0 +1,26 @@
+.complete-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('src/assets/overlay.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+  
+    .confirmation-box {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+  
+      h1 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+      }
+  
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  
